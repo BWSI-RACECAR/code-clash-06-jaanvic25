@@ -51,7 +51,7 @@ class Solution:
             if len(numbers)==0:
                 return "Invalid input"
             else:
-                for i in range(int(numbers[0]), math.ceil(numbers[len(numbers)-1])):
+                for i in range(math.ceil(numbers[0]), math.ceil(numbers[len(numbers)-1])):
                     ctr = 0
                     for num in numbers:
                         if num % 1 != 0:
