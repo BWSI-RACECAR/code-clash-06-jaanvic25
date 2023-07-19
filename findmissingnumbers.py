@@ -60,8 +60,8 @@ class Solution:
                             ctr = 1
                     if ctr == 0:
                         output.append(i)
-                    if output == []:
-                        return "None missing"
+            if output == []:
+                return "None missing"
             return output
 
                     
