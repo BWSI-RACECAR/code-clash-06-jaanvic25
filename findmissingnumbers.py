@@ -51,8 +51,7 @@ class Solution:
             if len(numbers)==0:
                 return "Invalid input"
             else:
-                rangen = (numbers[0], numbers[len(numbers)-1])
-                for i in range(rangen):
+                for i in range(numbers[0], numbers[len(numbers)-1]):
                     ctr = 0
                     for num in numbers:
                         if num % 1 != 0:
